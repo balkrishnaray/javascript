@@ -56,4 +56,8 @@ order(2000, () => console.log(`${stock.fruits[1]} was selected`))
 
   .catch(() => {
     console.log("Our customer left");
+  })
+
+  .finally(() => {
+    console.log("Day ended, shop is closed");
   });
