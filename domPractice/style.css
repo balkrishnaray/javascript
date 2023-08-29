@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    background: rgb(220, 203, 182);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style: none;
+    padding: 0px 25px;
+}
